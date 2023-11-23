@@ -18,6 +18,8 @@ autenticação (sign in) e recuperação de informações do usuário.
 
 manda um request do tipo POST com um JSON contendo os seguintes campos.
 ```bash
+curl -X GET https://sua-api.com/api/exemplo
+
 {
     "nome": "lucas4",
   "email": "lucas4@email.com",
