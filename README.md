@@ -19,7 +19,7 @@ autenticação (sign in) e recuperação de informações do usuário.
 manda um request do tipo POST com um JSON contendo os seguintes campos.
 
 {
-    "nome": "lucas4",
+    "nome": "lucas4",/n
   "email": "lucas4@email.com",
   "senha": "lucas",
   "telefone": "9999999994"
