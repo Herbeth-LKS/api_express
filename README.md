@@ -17,7 +17,7 @@ autenticação (sign in) e recuperação de informações do usuário.
 ## criar um usuario:
 
 manda um request do tipo POST com um JSON contendo os seguintes campos.
-
+'''
 {
     "nome": "lucas4",/n
   "email": "lucas4@email.com",
@@ -25,7 +25,7 @@ manda um request do tipo POST com um JSON contendo os seguintes campos.
   "telefone": "9999999994"
   
 }
-
+'''
 ## login
 
 manda um request do tipo POST com um JSON contendo os seguintes campos.
