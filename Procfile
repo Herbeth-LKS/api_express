@@ -1,4 +1,3 @@
-
-web: node -r dotenv/config ./src/app.js
+web: yarn add nodemon -D
 
 web: yarn dev
