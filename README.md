@@ -43,9 +43,9 @@ manda um request do tipo POST com um JSON contendo os seguintes campos, para o e
 ## autenticar
 
 ```bash
-## autenticar usando o token JWT (com esse token é possivel acessar uma rota protegida "/home")
+autenticar usando o token JWT (com esse token é possivel acessar uma rota protegida "/home")
 
-manda um request do tipo GET de autenticação do tipo beare token com o token obtido no login (token so é valido por 30 minutos).
+manda um request do tipo GET de autenticação do tipo beare token com o token obtido no login. para o endpoint: https://apiexpress-d0ddb04f3e55.herokuapp.com/home (token so é valido por 30 minutos).
 
 
 ```
