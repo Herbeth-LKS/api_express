@@ -16,9 +16,8 @@ autenticação (sign in) e recuperação de informações do usuário.
 
 ## criar um usuario:
 
-manda um request do tipo POST com um JSON contendo os seguintes campos.
 ```bash
-curl -X GET https://sua-api.com/api/exemplo
+manda um request do tipo POST com um JSON contendo os seguintes campos, para o endpoint: https://apiexpress-d0ddb04f3e55.herokuapp.com/auth/register
 
 {
     "nome": "lucas4",
@@ -31,19 +30,23 @@ curl -X GET https://sua-api.com/api/exemplo
 
 ## login
 
-manda um request do tipo POST com um JSON contendo os seguintes campos.
+```bash
+
+manda um request do tipo POST com um JSON contendo os seguintes campos, para o endpoint: https://apiexpress-d0ddb04f3e55.herokuapp.com/auth/login
 
 {
     "email": "lucas4@email.com",
     "senha": "lucas"
 
 }
+```
+## autenticar
 
-
+```bash
 ## autenticar usando o token JWT (com esse token é possivel acessar uma rota protegida "/home")
 
 manda um request do tipo GET de autenticação do tipo beare token com o token obtido no login (token so é valido por 30 minutos).
 
 
-
+```
 
