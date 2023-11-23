@@ -17,15 +17,16 @@ autenticação (sign in) e recuperação de informações do usuário.
 ## criar um usuario:
 
 manda um request do tipo POST com um JSON contendo os seguintes campos.
-'''bash
+```bash
 {
-    "nome": "lucas4",/n
+    "nome": "lucas4",
   "email": "lucas4@email.com",
   "senha": "lucas",
   "telefone": "9999999994"
   
 }
-'''
+```
+
 ## login
 
 manda um request do tipo POST com um JSON contendo os seguintes campos.
